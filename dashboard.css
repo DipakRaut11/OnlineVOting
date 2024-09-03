@@ -1,0 +1,103 @@
+body {
+  background-color: burlywood;
+  font-family: Arial, sans-serif;
+}
+
+#mainSec {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffe4b5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#headerSec {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ff7f50;
+  color: white;
+  border-radius: 10px;
+}
+
+#backbutton,
+#logoutbutton {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#backbutton:hover,
+#logoutbutton:hover {
+  background-color: #45a049;
+}
+
+h1 {
+  margin: 0;
+  color: #4b0082;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#profile {
+  width: 45%;
+  padding: 20px;
+  background-color: #add8e6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#group {
+  width: 45%;
+  padding: 20px;
+  background-color: #ffb6c1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#group > div {
+  margin-bottom: 20px;
+}
+
+#group img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+#votebtn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#votebtn:hover {
+  background-color: #45a049;
+}
+
+#Voted {
+  padding: 10px 20px;
+  background-color: #808080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+#Voted:hover {
+  background-color: #707070;
+}
